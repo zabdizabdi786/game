@@ -1,4 +1,3 @@
-Zabdi, [28/11/2025 09:46]
 from random import randint
 import pygame
 # Константы для размеров поля и сетки:
@@ -119,10 +118,7 @@ def handle_keys(game_object):
                 game_object.next_direction = UP
             elif event.key == pygame.K_DOWN and game_object.direction != UP:
                 game_object.next_direction = DOWN
-            elif event.key == pygame.K_LEFT and game_object.dir
-
-Zabdi, [28/11/2025 09:46]
-ection != RIGHT:
+            elif event.key == pygame.K_LEFT and game_object.direction != RIGHT:
                 game_object.next_direction = LEFT
             elif event.key == pygame.K_RIGHT and game_object.direction != LEFT:
                 game_object.next_direction = RIGHT
